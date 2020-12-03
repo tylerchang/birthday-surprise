@@ -8,7 +8,7 @@ import emoji from '../../assets/emoji.png'
 
 let photos = [];
 
-pictureArray.map(pic => {
+pictureArray.forEach(pic => {
   photos.push({
     src: pic,
     width: 1,
@@ -27,7 +27,7 @@ const PhotoPage = (props) => {
             <div className={styles.PhotoPage}>
               <div className={styles.Title}>Some photos of us that I think you would like.....</div>
               <Gallery photos={photos} direction="row"/>
-              <img src={emoji} className={styles.proceedButton} onClick={props.nextPage} />
+              <img src={emoji} className={styles.proceedButton} onClick={props.nextPage} alt="Proceed"/>
             </div>
         );
     }else{

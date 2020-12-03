@@ -9,7 +9,7 @@ const Home = (props) => {
         return(
             <div className={styles.Home}>
                 <p className={styles.Date}>12.14.2020</p>
-                <img src={emoji} onClick={props.nextPage} className={styles.Emoji}/>
+                <img src={emoji} onClick={props.nextPage} className={styles.Emoji} alt="Next Page"/>
             </div>
         );
     }else{

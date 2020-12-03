@@ -21,7 +21,7 @@ const Video = (props) => {
                     "box-shadow" : "0px 5px 198px 11px rgb(160, 127, 97)",
                     "margin": "20px",
                      }}/>
-            <img src={emoji} onClick={props.nextPage} className={styles.Emoji}/>
+            <img src={emoji} onClick={props.nextPage} className={styles.Emoji} alt="Next"/>
             </div>
         );
     }else{

@@ -34,7 +34,7 @@ import P33 from '../../assets/us/P33.jpg';
 import P34 from '../../assets/us/P34.jpg';
 import P35 from '../../assets/us/P35.jpg';
 
-export default [
+const images = [
     P1,
     P2,
     P3,
@@ -71,3 +71,5 @@ export default [
     P34,
     P35
 ];
+
+export default images;
