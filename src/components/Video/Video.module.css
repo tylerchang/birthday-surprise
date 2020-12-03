@@ -1,0 +1,27 @@
+.Video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 900px;
+    background: rgb(251, 235, 233);
+    color: rgb(160, 127, 97);
+    font-size: 90px;
+    font-family: 'Nerko One', cursive;
+    border: 2px solid black;
+}
+
+
+.Emoji{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 30px;
+    border-radius: 10%;
+    transition: 1000ms;
+}
+
+.Emoji:hover{
+    cursor: pointer;
+    -webkit-box-shadow: 4px 5px 138px 44px rgba(242,187,34,1);
+    -moz-box-shadow: 4px 5px 138px 44px rgba(242,187,34,1);
+    box-shadow: 4px 5px 138px 44px rgba(242,187,34,1);
+}
