@@ -11,7 +11,7 @@ const Video = (props) => {
         return(
             <div className={styles.Video}>
               <div>And finally, our love for music.....</div>
-              <ReactPlayer url="https://www.youtube.com/watch?v=CLwpEVhAuPk" 
+              <ReactPlayer url="https://www.youtube.com/watch?v=y9QoZ3Cylzk" 
               controls="true" 
               width="1000px" 
               height="1050px" 
