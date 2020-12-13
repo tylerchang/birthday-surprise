@@ -52,6 +52,7 @@
     -webkit-box-shadow: 0px 5px 198px 41px rgba(87,149,255,0.61);
     -moz-box-shadow: 0px 5px 198px 41px rgba(87,149,255,0.61);
     box-shadow: 0px 5px 198px 41px rgba(87,149,255,0.61);
+   
 }
 
 .toFrom{
@@ -68,9 +69,9 @@
 }
 
 .proceedButton{
-    width: 100px;
-    height: 100px;
-    margin-bottom: 30px;
+    width: 70px;
+    height: 70px;
+    margin-top: 55px;
     border-radius: 50%;
     transition: 1000ms;
 }

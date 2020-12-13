@@ -18,7 +18,22 @@ const ClosedCard = (props) => {
 const OpenedCard = (props) => {
     return(
      <div onClick={props.close} className={styles.BirthdayCardOpen}>
-         <div className={styles.Letter}>Dear Hikari, <br/> <br/> You have lived 19 years on this planet! I'm priviledged and so grateful to have known you for almost 4 of those years and counting! That's a lot of time for meeting new people and making friends. Reflecting on all the people I've met during my 19 years, you are a very special one. For the past 9 months, I have valued every single moment with you. No joke bro. Just to name a few: sunrises, sunsets, very very long facetime calls, long movies that we both had to sit through just so we had an excuse to talk to each other, listening to music, grocery store shopping, all the yummy foods you showed me, bike rides, anytime we were at each other's houses, texting and calling during work breaks, all the study sessions, debates, disagreements, "fights," the aquarium, working together, and lastly but definitely not least, doing nothing :) Never have I felt so loved and you inspire me everyday to become a better person. The road ahead comes with many challenges but I'm so excited to tackle it on with you! I love you so much! <br/> <br/> Yours and only yours,<br/> Tyler </div>
+         <div className={styles.Letter}>
+             Dear Hikari, <br/> <br/> 
+             This probably wasn't what you were expecting for a birthday card. 
+             I figured I needed some practice applying the skills I learned from the web development course and 
+             what better way to do it than a digital birthday experience! Sorry if it looks trashy as I'm still 
+             in the middle of learning. 19 years old! I'm so priviledged and grateful to have known you for almost 4 of 
+             those years and counting! That's a lot of time for meeting new people and making friends. Reflecting 
+             on all the people I've met during my 19 years, you are a very special one. For the past 9 months, 
+             I have valued every single moment with you. No joke bro. Just to name a few: sunrises, sunsets, 
+             very very long facetime calls, listening to music, grocery store adventures, all the yummy foods, bike rides, 
+             anytime we were at each other's houses, texting and calling during work breaks, study sessions, debates, 
+             disagreements, "fights," the aquarium, working together, and lastly but definitely not least, doing nothing :) 
+             Never have I felt so loved and you inspire me everyday to become a better person. The road ahead comes with many 
+             challenges but I'm so excited to tackle it on with you! I love you so much! 
+             <br/> <br/> Yours and only yours,
+             <br/> Tyler </div>
          <img src={emoji}className={styles.proceedButton} onClick={props.proceed} alt="Proceed"/>
      </div>
     )
