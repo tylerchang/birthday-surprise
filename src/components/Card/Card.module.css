@@ -92,7 +92,7 @@
 
 @media(min-width: 300px) and (min-height: 50px){
     .Title{
-        font-size: 40px;
+        font-size: 30px;
     }
     .BirthdayCardClose{
         width: 350px;
@@ -151,4 +151,5 @@
         height: 1000px;
         width: 620px;
     }  
+   
 }
