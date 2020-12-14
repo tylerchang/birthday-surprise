@@ -10,7 +10,7 @@ const Video = (props) => {
     if(show){
         return(
             <div className={styles.Video}>
-              <div>And finally, our love for music.....</div>
+              <div className={styles.Title}>And finally, our love for music.....</div>
               <ReactPlayer url="https://www.youtube.com/watch?v=y9QoZ3Cylzk" 
               controls="true" 
               width="1000px" 
@@ -19,7 +19,7 @@ const Video = (props) => {
                     "-webkit-box-shadow" : "0px 5px 198px 11px rgb(160, 127, 97)",
                     "-moz-box-shadow" : "0px 5px 198px 11px rgb(160, 127, 97)",
                     "box-shadow" : "0px 5px 198px 11px rgb(160, 127, 97)",
-                    "margin": "20px",
+                    "margin": "20px"
                      }}/>
             <img src={emoji} onClick={props.nextPage} className={styles.Emoji} alt="Next"/>
             </div>

@@ -3,8 +3,7 @@
     flex-direction: column;
     align-items: center;
     height: 1500px;
-    background: rgb(251, 235, 233);
-    
+    background: rgb(251, 235, 233);   
 }
 
 .Title{
@@ -89,4 +88,67 @@
     font-size: 30px;
     height: 1000px;
     width: 620px;
+}
+
+@media(min-width: 300px) and (min-height: 50px){
+    .Title{
+        font-size: 40px;
+    }
+    .BirthdayCardClose{
+        width: 350px;
+        height: 700px;
+    }
+    .BirthdayCardOpen{
+        width: 350px;
+        height: 1050px;
+       
+    }
+    .Letter{
+        font-size: 20px;
+        height: 1000px;
+        width: 330px;
+
+    }  
+    .proceedButton{
+        width: 70px;
+        height: 70px;
+    }
+}
+  
+@media(min-width: 850px) and (min-height: 400px){
+    .Title{
+        font-size: 100px;
+    }
+    .BirthdayCardClose{
+        width: 700px;
+        height: 700px;
+    }
+    .BirthdayCardOpen{
+        width: 700px;
+        height: 1170px;
+    }
+    .Letter{
+        font-size: 30px;
+        height: 1000px;
+        width: 620px;
+    }  
+}
+  
+@media(min-width: 1500px) and (min-height: 700px){
+    .Title{
+        font-size: 150px;
+    }
+    .BirthdayCardClose{
+        width: 700px;
+        height: 700px;
+    }
+    .BirthdayCardOpen{
+        width: 700px;
+        height: 1170px;
+    }
+    .Letter{
+        font-size: 30px;
+        height: 1000px;
+        width: 620px;
+    }  
 }

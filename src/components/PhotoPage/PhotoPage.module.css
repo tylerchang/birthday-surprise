@@ -2,14 +2,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 1500px;
+    height: 1700px;
     background: rgb(251, 235, 233);
 }
 
 .Title{
     font-family: 'Nerko One', cursive;    
     color: rgb(160, 127, 97);
-    font-size: 40px;  
+    font-size: 60px;  
     margin: 50px;
 }
 
@@ -27,4 +27,27 @@
     -webkit-box-shadow: 4px 5px 138px 44px rgba(242,187,34,1);
     -moz-box-shadow: 4px 5px 138px 44px rgba(242,187,34,1);
     box-shadow: 4px 5px 138px 44px rgba(242,187,34,1);
+}
+
+@media(min-width: 200px){
+    .Title{
+        font-size: 18px;
+    }
+ }
+
+@media(min-width: 1000px){
+   .Title{
+       font-size: 40px;
+   }
+}
+
+@media(min-width: 1300px){
+    .Title{
+        font-size: 60px;
+    }
+}
+@media(min-width: 1700px){
+    .Title{
+        font-size: 80px;
+    }
 }
