@@ -33,7 +33,7 @@ const OpenedCard = (props) => {
              Never have I felt so loved and you inspire me everyday to become a better person. The road ahead comes with many 
              challenges but I'm so excited to tackle it on with you! I love you so much! 
              <br/> <br/> Yours and only yours,
-             <br/> Tyler </div>
+             <br/> 张嘉翔 </div>
          <img src={emoji}className={styles.proceedButton} onClick={props.proceed} alt="Proceed"/>
      </div>
     )
